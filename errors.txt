@@ -1,0 +1,120 @@
+ error  in ./src/components/Home.vue
+
+
+  ✘  http://eslint.org/docs/rules/quotes                       Strings must use singlequote                 
+  src/components/Home.vue:21:27
+  import GithubService from "@/services/GithubService";
+                             ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:21:53
+  import GithubService from "@/services/GithubService";
+                                                       ^
+
+  ✘  http://eslint.org/docs/rules/quotes                       Strings must use singlequote                 
+  src/components/Home.vue:23:9
+    name: "hello",
+           ^
+
+  ✘  http://eslint.org/docs/rules/space-before-function-paren  Missing space before function parentheses    
+  src/components/Home.vue:24:7
+    data() {
+         ^
+
+  ✘  http://eslint.org/docs/rules/quotes                       Strings must use singlequote                 
+  src/components/Home.vue:26:12
+        msg: "VueJS PWA consuming Github API",
+              ^
+
+  ✘  http://eslint.org/docs/rules/quotes                       Strings must use singlequote                 
+  src/components/Home.vue:27:17
+        username: "",
+                   ^
+
+  ✘  http://eslint.org/docs/rules/comma-dangle                 Unexpected trailing comma                    
+  src/components/Home.vue:28:17
+        user: null,
+                   ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:29:6
+      };
+        ^
+
+  ✘  http://eslint.org/docs/rules/space-before-function-paren  Missing space before function parentheses    
+  src/components/Home.vue:32:22
+      async getUserData(){
+                        ^
+
+  ✘  http://eslint.org/docs/rules/space-before-blocks          Missing space before opening brace           
+  src/components/Home.vue:32:24
+      async getUserData(){
+                          ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:33:23
+        this.user = null;
+                         ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars               'result' is assigned a value but never used  
+  src/components/Home.vue:34:13
+        const result = await GithubService.searchUser({
+               ^
+
+  ✘  http://eslint.org/docs/rules/comma-dangle                 Unexpected trailing comma                    
+  src/components/Home.vue:35:32
+          username: this.username,
+                                  ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:38:36
+            this.user = response.data;
+                                      ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:41:29
+            console.log(error);
+                               ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:42:11
+          });
+             ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:44:31
+          console.log(this.user);
+                                 ^
+
+  ✘  http://eslint.org/docs/rules/comma-dangle                 Unexpected trailing comma                    
+  src/components/Home.vue:46:6
+      },
+        ^
+
+  ✘  http://eslint.org/docs/rules/comma-dangle                 Unexpected trailing comma                    
+  src/components/Home.vue:47:4
+    },
+      ^
+
+  ✘  http://eslint.org/docs/rules/semi                         Extra semicolon                              
+  src/components/Home.vue:48:2
+  };
+    ^
+
+
+✘ 20 problems (20 errors, 0 warnings)
+
+
+Errors:
+  8  http://eslint.org/docs/rules/semi
+  4  http://eslint.org/docs/rules/comma-dangle
+  4  http://eslint.org/docs/rules/quotes
+  2  http://eslint.org/docs/rules/space-before-function-paren
+  1  http://eslint.org/docs/rules/no-unused-vars
+  1  http://eslint.org/docs/rules/space-before-blocks
+
+ @ ./src/router/index.js 3:0-37
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+
